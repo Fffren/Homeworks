@@ -1,0 +1,11 @@
+amount_of_completed_homeworks=(12)
+amount_of_spended_hours=(1.5)
+amount_of_spended_minutes=(90)
+minutes_per_one_hour=(60)
+name_of_course = "python"
+time_for_one_task=(amount_of_spended_minutes/amount_of_completed_homeworks)
+time_for_one_task_hours=(time_for_one_task/minutes_per_one_hour)
+print (time_for_one_task)
+print (time_for_one_task_hours)
+last_variable=(f"{name_of_course.title()}, всего задач: {amount_of_completed_homeworks}, затрачено часов: {amount_of_spended_hours}, среднее время выполнения: {time_for_one_task_hours}")
+print (last_variable)
