@@ -6,4 +6,4 @@ if number_1 == number_2 == number_3:
 elif number_1 == number_2 or number_1 == number_3 or number_2 == number_3:
     print (2)
 elif number_1 != number_2 and number_1 != number_3 and number_2 != number_3:
-    print (1)
+    print (0)
