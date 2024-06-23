@@ -4,8 +4,8 @@ existing_key="dish_1"
 non_existing_key="dish_5"
 value_existing=my_dict.get(existing_key)
 value_non_existing=my_dict.get(non_existing_key)
-print(f"Значение для существующего ключа {existing_key}: {value_existing}")
-print(f"Значение для несуществующего ключа {non_existing_key}: {value_non_existing}")
+print(f"Значение для существующего ключа '{existing_key}': {value_existing}")
+print(f"Значение для несуществующего ключа '{non_existing_key}': {value_non_existing}")
 my_dict["dish_10"]="pasta"
 my_dict["dish_11"]="pelmeni"
 print(f"Словарь после добавления новых значений:{my_dict}")
